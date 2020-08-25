@@ -1,0 +1,99 @@
+.my-container{
+	position: relative;
+	margin: 10px;
+	width: 600px;
+}
+.my-check-label{
+	user-select: none;
+}
+#message{
+	width: 100%;
+	height: 120px;
+}
+.row-left{
+	position: relative;
+	display: inline-block;
+	width: auto;
+}
+.row-right{
+	position: relative;
+	display: inline-block;
+	width: 20%;
+}
+.row-right input{
+	width: 100%;
+}
+.my-btn{
+	width: 106px;
+	height: 32px;
+	background: #18d830;
+	color: white;
+	border: 1px solid #16b130;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.my-btn:hover{
+	background: #17d130;
+	color: white;
+	border: 1px solid #1c9c32;
+}
+.my-btn:active{
+	background: #00c117;
+	color: white;
+	border: 1px solid #1c9c32;
+}
+.my-btn:disabled{
+	background: #00c117;
+	color: white;
+	border: 1px solid #1c9c32;
+	cursor: not-allowed;
+}
+#notifyContainer{
+	position: relative;
+	width: 520px;
+	height: 144px;
+	background: #fcfbfa;
+}
+.notify{
+	position: absolute;
+	width: 512px;
+	height: 15px;
+	bottom: 0px;
+	background: #f2f1f0;
+	visibility: hidden;
+	font-family: arial;
+	font-size: 10pt;
+	padding: 4px;
+	transition: all 0.07s ease-out 0s;
+	-o-transform: translateX(-150px);
+	-ms-transform: translateX(-150px);
+	-moz-transform: translateX(-150px);
+	-webkit-transform: translateX(-150px);
+	transform: translateX(-150px);
+}
+.notifyShow{
+	visibility: visible;
+	transition: all 0.07s ease-out 0s;
+	-o-transform: translateX(0px);
+	-ms-transform: translateX(-0px);
+	-moz-transform: translateX(-0px);
+	-webkit-transform: translateX(-0px);
+	transform: translateX(-0px);
+}
+.notifyShow1{
+	visibility: visible;
+	transition: all 0.07s ease-out 0s;
+
+}
+.notifySuccess{
+	background: #63ef63;
+}
+.notifyError{
+	background: #ff9090;
+}
+.notifyHeader{
+	
+}
+.notifyText{
+	color: #212121
+}

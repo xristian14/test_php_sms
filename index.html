@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>php.sms</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="my-container">
+		<form method="post" id="form1">
+			<label for="message">Сообщение</label><br>
+			<textarea id="message" name="message"></textarea><br>
+			<input type="checkbox" class="" id="transliteration">
+			<label class="my-check-label" for="transliteration">Транслитерировать</label><br>
+			<div class="row-left">
+				<span>Количество введенных символов</span><br>
+				<span>Необходимое количество SMS-сообщений для отправки текста</span>
+			</div>
+			<div class="row-right">
+				<input type="text" class="" id="countSymbols" name="countSymbols" readonly><br>
+				<input type="text" class="" id="countSms" name="countSms">
+			</div>
+			<input type="submit" class="my-btn" value="Сохранить" id="mySubmit"/>
+		</form>
+	</div>
+	<div id="notifyContainer">
+		<div class="notify" id="notify">
+			<span id="result">Добавлена запись</span>
+			<span id="notifyMessage">Qfskdfskjsdjgkbds,jgsjs</span>
+			<span id="notifyCountSms">1</span>
+		</div>
+	</div>
+
+<script src="jquery-3.5.1.min.js"></script>
+<script src="notify.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
